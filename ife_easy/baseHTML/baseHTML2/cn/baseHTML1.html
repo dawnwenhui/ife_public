@@ -3,183 +3,334 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>我开始学习HTML了!!!</title>
-    <style type="text/css">
-        table,tbody,tfoot,th,thead,td{
-            border: 1px solid cadetblue;
-        }
-    </style>
+    <link href="../css/baseHTML2.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>HTML第一题Demo</h1>
-    <div>
-       <ul>
-           <li><a href="#"> HTML简介</a></li>
-           <li><a href="#"> HTML标准</a></li>
-           <li><a href="#"> HTML标签</a></li>
-           <li><a href="#"> HTML5入门</a></li>
-       </ul>
-    </div>
-    <article>
-        <h2>HTML从诞生到繁荣</h2>
-        <h2>谈谈HTML前世今生</h2>
-        <address>文章作者：迷路的小兰  文章时间：<time>2017/3/3</time></address>
-        <p>
-            蒂姆·伯纳斯-李，一名CERN（欧洲核子研究组织）的物理学家，在80年代后期设计了一种能在网路上分享文档的方式。在这之前，网路上沟通的方式仅限于纯文本
-            <br>传递，比如：电子邮件、FTP(文件传输协议)和Usenet讨论版。<br>HTML是利用内容档案储存至中央服务器的方式，然后再将内容透过浏览器传递至本机工作站。
-            <br>它简化了内容存取的方式，也让更多丰富内容能够显示（诸如较复杂的文本格式与图片的显示）。
-            <br><a href="http://ife.baidu.com">HTML 源自于SGML（这里颜色为什么和li下的a标签颜色不一样）</a>——它是一种复杂的文档结构定义和内容描述（文本或图像）语法；从HTML5起，HTML不再坚守SGML的语法。
-            <div>
-                <img src="./pic/html.jpg">
-            </div>
-            <br>当你在 web 浏览器中浏览网页时，你看到的最基本的内容是文字。这些文字一般有着一些样式特性，比如不同的文字大小和颜色。在多数情况下，页面还会展示图片或
-            <br>者还可能带有视频；有时候会有一个表单，你可以填写信息（或者搜索内容）；或者可以依据喜好自定义页面的展示效果；页面也经常会带有包含动画效果的内容；页面
-            <br>上有些内容会不断变化而有些内容会保持不变。
-            <br><a href="http://ife.baidu.com">HTML规范（这里颜色为什么和li下的a标签颜色不一样）</a>所定义的这种语言，既可以使用较为松散的HTML语法，也可以使用更为严格的XML（Extensible Markup Language 扩展标记语言）语法，同时也解决了
-            <br>Web应用的需求。HTML没有描述内容的样式和格式，只是内容本身和其意义。如果你想要在网站中加入样式和格式，需要通过<b>层叠样式表（CSS）</b>来定义和控制。
-        </p>
-    </article>
-    <article>
-        <h2>HTML 入门</h2>
-        <h2>什么是HTML？</h2>
-        <address>文章作者：迷路的小兰  文章时间：<time>2017/3/3</time></address>
-        <p>
-<pre>
-<big>
-HTML 是一种<b>标记语言（markup language）</b>。它告诉浏览器如何显示内容。HTML把内容（文字，图片，语言，影片等等）和「presentation」（这个内容是如何显
-示，比如文字用什么颜色显示等等）分开。HTML使用预先定义的元素集合来识别内容形态。 元素包含一个以上的标记来包含或者表达内容。标记利用尖括号表示，而
-结束标记（用来指示内容尾端）则在前面加上斜线。
-</big>
-</pre>
-        </p>
-        <div>
-            <img src="./pic/constructor.jpg">
-        </div>
-        <div>
+    <nav>
+        <img class="log" src="../../pic/log.png">
+        <div class="mlink">
             <ul>
-                <li>HTML属性</li>
-                <li>HTML事件</li>
-                <li>HTML其他</li>
+                <li><a href="#"> HTML简介</a></li>
+                <li><a href="#"> HTML标准</a></li>
+                <li><a href="#"> HTML标签</a></li>
+                <li><a href="#"> HTML5入门</a></li>
             </ul>
         </div>
-        <h2>HTML作品样例</h2>
-        <pre>
-            <big>Demo 1</big>
-            <img src="./pic/demo1.jpg">
-        </pre>
-        <pre>
-            <big>Demo 2</big>
-            <img src="./pic/demo2.jpg">
-        </pre>
-        <pre>
-            <big>Demo 3</big>
-            <img src="./pic/demo3.jpg">
-        </pre>
-        <pre>
-            <big>Demo 4</big>
-            <img src="./pic/demo4.jpg">
-        </pre>
-        <pre>
-            <big>Demo 5</big>
-            <img src="./pic/demo5.jpg">
-        </pre>
-        <pre>
-            <big>Demo 6</big>
-            <img src="./pic/demo6.jpg">
-        </pre>
-        <pre>
-            <big>Demo 7</big>
-            <img src="./pic/demo7.jpg">
-        </pre>
-        <pre>
-            <big>Demo 8</big>
-            <img src="./pic/demo8.jpg">
-        </pre>
-        <pre>
-            <big>Demo 9</big>
-            <img src="./pic/demo9.jpg">
-        </pre>
-        <pre>
-            <big>Demo 10</big>
-            <img src="./pic/demo10.jpg">
-        </pre>
-    </article>
-    <article>
-        <h2>HTML5总结</h2>
-        <h2>HTML5写完了哈哈</h2>
-        <address>文章作者：迷路的小兰  文章时间：<time>2017/3/3</time></address>
-        <p>
-            <ol>
-                <li>任文慧</li>
-                <li>迷路的小兰</li>
-                <li>迷路的小松鼠</li>
-            </ol>
-            <caption>下面是个表格，不信你看看</caption>
-            <table>
-                <thead>
-                    <th>题目</th>
-                    <th>作者</th>
-                    <th>时间</th>
-                </thead>
-                <tbody>
-                    <tr>
-                       <td>HTML初尝</td>
-                        <td>小兰</td>
-                        <td>2017/3/2</td>
-                    <tr>
-                        <td>HTML入门</td>
-                        <td>小松鼠</td>
-                        <td>2017/3/3</td>
-                    <tr>
-                        <td>HTML精通</td>
-                        <td>小绿绿</td>
-                        <td>2017/3/4</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>总计</td>
-                        <td>3</td>
-                    </tr>
-                </tfoot>
-            </table>
-            <h2>这里放个侧栏，这是侧栏的标题么？</h2>
-            <h2>侧栏注册窗口标题</h2>
-            <form>
-                <div>
-                    <label>请输入邮箱地址</label>
-                    <input type="text" placeholder="xxxx@baidu.com">
-                    <p>邮箱地址请按要求格式输入</p>
-                </div>
+    </nav>
+    <!--<h1>HTML第一题Demo</h1>-->
+    <!--<div>-->
+       <!--<ul>-->
+           <!--<li><a href="#"> HTML简介</a></li>-->
+           <!--<li><a href="#"> HTML标准</a></li>-->
+           <!--<li><a href="#"> HTML标签</a></li>-->
+           <!--<li><a href="#"> HTML5入门</a></li>-->
+       <!--</ul>-->
+    <!--</div>-->
+    <div class="para">
+        <article>
+            <h2 class="h1">HTML从诞生到繁荣</h2>
+            <h2 class="h2">谈谈HTML前世今生</h2>
+            <address>文章作者：迷路的小兰  文章时间：<time>2017/3/3</time></address>
+            <p>
+                蒂姆·伯纳斯-李，一名CERN（欧洲核子研究组织）的物理学家，在80年代后期设计了一种能在网路上分享文档的方式。在这之前，网路上沟通的方式仅限于纯文本传递，比如：电子邮件、FTP(文件传输协议)和Usenet讨论版。HTML是利用内容档案储存至中央服务器的方式，
+                然后再将内容透过浏览器传递至本机工作站。它简化了内容存取的方式，也让更多丰富内容能够显示（诸如较复杂的文本格式与图片的显示）。<a href="http://ife.baidu.com">HTML 源自于SGML（这里颜色为什么和li下的a标签颜色不一样）</a>——它是一种复杂的文档
+                结构定义和内容描述（文本或图像）语法；从<wbr>HTML5<wbr>起，HTML不再坚守SGML的语法。
+            </p>
+            <div>
+                <img src="../../pic/html.jpg">
+            </div>
+            <p>
+                        当你在 web 浏览器中浏览网页时，你看到的最基本的内容是文字。这些文字一般有着一些样式特性，比如不同的文字大小和颜色。在多数情况下，页面还会展示图片或者还可能带有视频；有时候会有一个表单，你可以填写信息（或者搜索内容)，或者可以依据喜好自
+                定义页面的展示效果；页面也经常会带有包含动画效果的内容；页面上有些内容会不断变化而有些内容会保持不变。<a href="http://ife.baidu.com">HTML规范（这里颜色为什么和li下的a标签颜色不一样）</a>所定义的这种语言， 既可以使用较为松散的HTML语法，也可以
+                使用更为严格的XML（Extensible Markup Language 扩展标记语言）语法，同时也解决了Web应用的需求。HTML没有描述内容的样式和格式，只是内容本身和其意义。如果你想要在网站中加入样式和格式，需要通过<b>层叠样式表（CSS）</b>来定义和控制。
+            </p>
+        </article>
+    </div>
+    <div class="para">
+        <article>
+            <h2 class="h1">HTML 入门</h2>
+            <h2 class="h2">什么是HTML？</h2>
+            <address>文章作者：迷路的小兰  文章时间：<time>2017/3/3</time></address>
+            <p>
 
-                <div>
-                    <label>请输入密码</label>
-                    <input type="password" placeholder="密码请为6-16位英文数字">
-                    <label>请重复输入密码</label>
-                    <input type="password" placeholder="密码请为6-16位英文数字">
-                </div>
+                HTML 是一种<b>标记语言（markup language）</b>。它告诉浏览器如何显示内容。HTML把内容（文字，图片，语言，影片等等）和「presentation」（这个内容是如何显
+                示，比如文字用什么颜色显示等等）分开。HTML使用预先定义的元素集合来识别内容形态。 元素包含一个以上的标记来包含或者表达内容。标记利用尖括号表示，而
+                结束标记（用来指示内容尾端）则在前面加上斜线。
 
-                <p>密码请为6-16位英文数字</p>
-                <div>
-                    <label>性别：</label>
-                    <input type="radio" name="sex">男
-                    <input type="radio" name="sex">女
-                    <label>城市：</label>
-                    <select name="city">
-                        <option>北京</option>
-                        <option>保定</option>
-                        <option>石家庄</option>
-                    </select>
-                    <label>爱好:  </label>
-                    <input type="checkbox">运动
-                    <input type="checkbox">艺术
-                    <input type="checkbox">科学
-                    <label>个人描述:</label>
-                    <textarea placeholder="请不少于50个字"></textarea>
+            </p>
+            <div>
+                <img src="../../pic/constructor.jpg">
+            </div>
+            <div class="para2">
+                <ul>
+                    <li>HTML属性学习一</li>
+                    <li>HTML事件学习二</li>
+                    <li>HTML其他学习三</li>
+                </ul>
+            </div>
+        </article>
+    </div>
+    <div class="para">
+        <article>
+                <h2 class="h1">HTML作品样例</h2>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 1</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo1.jpg">
+                    </div>
                 </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 2</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo2.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 3</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo3.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 4</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo4.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 5</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo5.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 6</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo6.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 7</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo7.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 8</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo8.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 9</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo9.jpg">
+                    </div>
+                </div>
+                <div class="picbox">
+                    <div class="title">
+                        <span class="title">好看的Demo 10</span>
+                    </div>
+                    <div class="img">
+                        <img src="../../pic/demo10.jpg">
+                    </div>
+                </div>
+        </article>
+    </div>
 
-            </form>
-        </p>
-    </article>
-    <aside>版权所有©danwenhui</aside>
+    <div class="para">
+        <article>
+            <h2 class="h1">HTML5总结</h2>
+            <h2 class="h2">HTML5写完了哈哈</h2>
+            <address>文章作者：迷路的小兰  文章时间：<time>2017/3/3</time></address>
+            <p>
+                <div  class="range">
+                    <ol>
+                        <li>迷路的小绿</li>
+                        <li>迷路的小兰</li>
+                        <li>迷路的小松</li>
+                    </ol>
+                </div>
+                <caption class="cap">下面是个表格，不信你看看</caption>
+                <table cellspacing="0" frame="box">
+                    <thead class="thead" align="left">
+                        <th><span>题目</span></th>
+                        <th ><span>作者</span></th>
+                        <th><span>操作</span></th>
+                    </thead>
+                    <tbody class="tbody" align="left">
+                        <tr>
+                           <td><span>HTML初尝</span></td>
+                            <td><span>小兰</span></td>
+                            <td><span><a class="click" href="#">点击</a></span></td>
+                        <tr>
+                            <td><span>HTML入门</span></td>
+                            <td><span>小松鼠</span></td>
+                            <td><span><a class="click" href="#">点击</a></span></td>
+                        <tr>
+                            <td><span>HTML精通</span></td>
+                            <td><span>小绿绿</span></td>
+                            <td><span><a class="click" href="#">点击</a></span></td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="tfoot" align="left">
+                        <tr>
+                            <td><span>总计</span></td>
+                            <td colspan="2"><span>3</span></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </p>
+        </article>
+    </div>
+    <div class="para">
+        <article>
+            <div class="greybar">
+                <h2 class="h1">这里放个侧栏，这是侧栏的标题么？</h2>
+            </div>
+            <!--<h2 class="h2">侧栏注册窗口标题</h2>-->
+            <div class="content">
+                <form class="regForm">
+                    <div class="form-row ">
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                                <label class="desc" style="margin-left: 8em;">请输入邮箱地址</label>
+                            </div>
+                            <div class="col-w-3">
+                                <input type="text" placeholder="xxxx@baidu.com">
+                            </div>
+                        </div>
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                            </div>
+                            <div class="col-w-3">
+                                <label class="label">邮箱地址请按要求格式输入</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                                <label class="desc" style="margin-left: 10em;">请输入密码</label>
+                            </div>
+                            <div class="col-w-3">
+                                <input id="password" type="password" placeholder="密码请为6-16位英文数字">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                                <label class="desc" style="margin-left: 8em;">请重复输入密码</label>
+                            </div>
+                            <div class="col-w-3">
+                                <input type="password" placeholder="密码请为6-16位英文数字" id="passRepeat">
+                            </div>
+                        </div>
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                            </div>
+                            <div class="col-w-3">
+                                <label class="label" for="password">密码请为6-16位英文数字</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                                <label class="desc" style="margin-left: 13em;">性别</label>
+                            </div>
+                            <div class="col-w-6">
+                                <div class="col-w-1 radios">
+                                    <input type="radio" name="sex" class="radio" id="radioMan" checked>
+                                    <label for="radioMan" name="sex"></label>
+                                    <label>男</label>
+                                </div>
+                                <div class="col-w-1 radios">
+                                    <input type="radio" name="sex" class="radio" id="radioWoman">
+                                    <label for="radioWoman" name="sex"></label>
+                                    <label>女</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                                <label class="desc" style="margin-left: 13em;">城市</label>
+                            </div>
+                            <div class="col-w-3">
+                                <select name="city">
+                                    <option>北京</option>
+                                    <option>保定</option>
+                                    <option>石家庄</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                                <label class="desc" style="margin-left:13em;">爱好</label>
+                            </div>
+                            <div class="col-w-3 checkbox">
+                                <div class="col-w-2 checkbox">
+                                    <input type="checkbox" name="favoriate" id="sports">
+                                    <label name="favoriate" for="sports"></label>
+                                    <label>运动</label>
+                                </div>
+
+                                <div class="col-w-2 checkbox">
+                                    <input type="checkbox" name="favoriate" id="secience">
+                                    <label name="favoriate" for="secience"></label>
+                                    <label>科学</label>
+                                </div>
+
+                                <div class="col-w-2 checkbox">
+                                    <input type="checkbox" name="favoriate" id="arts">
+                                    <label name="favoriate" for="arts"></label>
+                                    <label>艺术</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-w-12">
+                            <div class="col-w-3">
+                                <label class="desc" style="margin-left: 11em;">个人描述</label>
+                            </div>
+                            <div class="col-w-3">
+                                <textarea  style="min-width: 760px;min-height: 100px;" placeholder="这是一个多行输入框，请输入您对自己的描述"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="option">
+                    <button class="submit"><span>确认提交</span></button>
+                </div>
+            </div>
+        </article>
+    </div>
+    <footer class="exec"><aside>版权所有©danwenhui</aside></footer>
 </body>
 </html>

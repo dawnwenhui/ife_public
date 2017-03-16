@@ -1,0 +1,392 @@
+body,img,ul,div,table{
+    /*init*/
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    font-family: "黑体";
+}
+
+table{
+    width: auto;
+    height: auto;
+    font-family: 黑体;
+}
+
+tfoot{
+    font-weight: 600;
+}
+
+a:-webkit-any-link ,a:link{
+    color: #0a3ada;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+table,tbody,tfoot,th,thead,td{
+    border: 0.1px solid #fcfcfc;
+}
+
+
+body{
+    background: #dedede repeat;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 59px;
+    background: #333333 repeat;
+    padding: 0px 0px;
+}
+
+p{
+    text-indent:2em
+}
+
+img.log{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:10px;
+}
+
+div.mlink{
+    display: inline-block;
+    float: right;
+    margin-top:20px;
+    width: 30%;
+    height: inherit;
+}
+
+div.mlink ul{
+    height: 100%;
+    width: 100%;
+    margin-left: 190px;
+}
+div.mlink li{   
+    height: 50px;
+    float: left;
+    list-style: disc;
+    width: 12%;
+    margin-left: 20px;
+    color:#030303;
+    font-size: 14px;
+}
+
+div.mlink li a{
+     color: white;
+     font-size:14px;
+     text-decoration:none;
+ }
+
+div.mlink >li>a:link{
+    color:#909090;
+}
+
+div.para {
+    width: 96.8%;
+    height: auto;
+    box-shadow:2px 2px #848484 ;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: #FFFFFF;
+    margin: 20px auto 0px auto;
+}
+
+div.para article{
+    width: 96.8%;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+h2.h1{
+    font-size: 20px;
+}
+
+h2.h2{
+   font-size: 14px;
+    color: #786662;
+}
+
+div.para article p{
+    font-size: 14px;
+    font-family:"黑体";
+    color: #01060c;
+    line-height: 2em;
+}
+
+div.para article address{
+    font-size: 12px;
+    font-style: normal;
+    color: #746c69;
+}
+
+div.para2{
+    margin:10px 0 48px 0;
+    position: relative;
+}
+
+div.para2 ul{
+    list-style-type:none;
+    text-indent: 2em;
+
+}
+
+div.para2 ul li{
+    line-height: 2em;
+    font-family: "黑体";
+
+}
+
+div.picbox{
+    display: block;
+    height: auto;
+    width: 900px;
+    text-align: center;
+    border: 1px solid #cbcbcb;
+    margin: 20px;
+}
+
+div.img{
+    display: block;
+    margin: 0 auto;
+    padding:0 0 20px 0;
+}
+
+div.picbox>div.title>span.title{
+    display: block;
+    font-size: 17px;
+    color: #000;
+    margin: 10px;
+    font-family: "黑体";
+}
+
+div.range ol{
+    font-family: "黑体";
+    font-weight: 500;
+    line-height: 2em;
+    font-size: 17px;
+}
+
+p.cap{
+    font-family:"黑体";
+}
+
+table tbody.tbody td,table thead.thead th,table tfoot.tfoot td{
+    width: 500px;
+    padding-left: 10px;
+}
+
+table tbody.tbody th{
+    font-size: 12px;
+}
+
+table thead.thead th{
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+table tfoot.tfoot td{
+    background-color: #cccccc;
+}
+
+table span{
+    display: inline-block;
+    margin: 2px 0 2px 0;
+}
+
+a.click:-webkit-any-link{
+    color:  -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+div.greybar{
+    border-left: 2px solid #cdcdcd ;
+    line-height:2em ;
+    vertical-align: middle;
+}
+
+div.greybar h2{
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+form.regForm{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    min-width: 900px;
+}
+
+div.content {
+    width: inherit;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+}
+
+div.form-row{
+    margin-bottom: 10px;
+}
+
+div.col-w-12{
+    width: 100%;
+    display:block;
+}
+
+div.col-w-6{
+    display: inline-block;
+    width: 50%;
+}
+
+div.col-w-3{
+    display: inline-block;
+    width: 25%;
+}
+
+div.col-w-1{
+    display: inline-block;
+    width: 10%;
+}
+
+div.col-w-2{
+    display: inline-block;
+    width: 20%;
+}
+
+footer.exec{
+    height: 67px;
+    width: 100%;
+    background: #333333 repeat-x ;
+    text-align: center;
+}
+
+footer.exec aside{
+    line-height: 67px;
+    vertical-align: middle;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-family:"黑体";
+    margin-top: 20px;
+}
+
+div.option button.submit{
+    background-color: #3158d9;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px #3158d9 solid;
+}
+
+div.option button.submit span{
+    color:#FFFFFF;
+    font-size: 20px;
+}
+
+div.content label{
+    font-family:"黑体";
+    
+}
+
+label.label{
+    color: #c3b5ac;
+}
+textarea{
+    font-size: large;
+    color: #030303;
+}
+
+
+/*div.radios{*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*width: 100px;*/
+    /*-webkit-justify-content: space-between;*/
+    /*justify-content: space-between;*/
+/*}*/
+
+input[name] + label
+{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border: solid 1px #e5e5e5;
+}
+
+input[name]{
+    margin: 0;
+    display: none;
+}
+
+
+input[name="sex"] + label{
+    border-radius: 50%;
+    line-height: 14px;
+}
+
+input[name="favoriate"] + label{
+    border-radius: 20%;
+    width: 12px;
+    height: 12px;
+    line-height: 14px;
+}
+
+input[name="favoriate"]:checked + label[name="favoriate"]{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: solid 1px #3e99ff;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+input[name="favoriate"]:checked + label[name="favoriate"]::after{
+    content: '\2714';
+    display: inline-block;
+    color: #3e99ff;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    padding-right: 5px;
+    margin: -5px -13px 0px -2px;
+}
+
+div.col-w-2.checkbox{
+    height: 14px;
+    line-height: 14px;
+}
+
+label[name="favoriate"] + label{
+    width:14px;
+    height: 14px;
+}
+
+input[name="sex"]:checked + label{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: solid 1px #3e99ff;
+    font-weight: 700;
+}
+input[name="sex"]:checked + label[name="sex"]::after{
+    display: inline-block;
+    margin: auto;
+    border: 5px solid #3e99ff;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    content: ' ';
+    background: #fff;
+}
+
+label[name="sex"] + label{
+    line-height: 14px;
+}
+
+
